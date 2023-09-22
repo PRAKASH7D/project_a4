@@ -10,7 +10,7 @@
     height: 80px;
     padding: 0 10px;
     gap: 30px;
-    margin: 15px 0;
+    margin: 0px 0;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -53,15 +53,9 @@
 
 #about-us {
     height: 80vh;
-    /* width: 100%; */
-    background-color: rebeccapurple;
-    /* display: flex; */
     flex-direction: column;
     padding: 50px;
-    /* align-items: center; */
-    /* position: relative; */
     z-index: 10;
-    /* justify-content: space-around; */
 }
 
 #about-us-in {
@@ -116,4 +110,142 @@
     /* flex-wrap: wrap; */
     margin-left: 0px;
     gap: 20px;
+}
+
+#cards-container {
+    flex-direction: column;
+    padding: 40px 10px;
+    height: 100vh;
+    gap: 40px;
+}
+
+.card {
+    height: 70vh;
+    width: 60vw;
+    border-radius: 15px;
+}
+
+.overlay {
+    padding: 30px;
+}
+
+.overlay h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.overlay p {
+    font-size: 14px;
+}
+
+#green-div {
+    height: 35vh;
+}
+
+#green-div h4 {
+    width: 78%;
+    font-size: 24px;
+}
+
+
+
+#page3 {
+    height: 60vh;
+    width: 100%;
+    background-color: #000;
+}
+
+#page3 > p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+    line-height: 130%;
+}
+
+#page3 img {
+    height: 30px;
+}
+
+#page3 #colon1 {
+    left: 12%;
+    top: 19%;
+}
+
+#page3 #colon2 {
+    bottom: 20%;
+    right: 19%;
+}
+
+#page4 {
+    height: 100vh;
+    padding-top: 10vh;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#page4 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.elem {
+    height: 20%;
+    width: 70%;
+}
+
+#footer {
+    height: 60vh;
+    padding-left: 40px;
+}
+
+#footer-main {
+    height: 85%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0px;
+    gap: 0px;
+}
+
+.f1 {
+   margin: 8px 30px;
+}
+.f2 {
+    margin: 8px 30px; 
+}
+.f3 {
+   margin: 8px 30px;
+   margin-right: 10px;
+}
+.f4 {
+    margin: 8px 30px; 
+    margin-left: 10px;
+}
+
+#copyrights {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px;
+    gap: 6px;
+}
+
+#copy-line {
+    font-size: 16px;
+    margin: 0;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#copyrights {
+    width: 100%;
+    
+}
+#copyrights a {
+    font-size: 16px;
+}
+#copyrights #last {
+    margin-bottom: 20px;
+}
+
+#footer {
+    padding-bottom: 80px;
 }
