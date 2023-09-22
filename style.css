@@ -344,6 +344,7 @@ video {
 .elem h2:hover {
     color: #fff;
     background-color: transparent;
+    text-shadow: 0px 0px 8px black;
 }
 
 /* .elem h2:hover .elem img {
