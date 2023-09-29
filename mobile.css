@@ -56,6 +56,7 @@
     flex-direction: column;
     padding: 50px;
     z-index: 10;
+    margin-bottom: 20px;
 }
 
 #about-us-in {
@@ -166,12 +167,12 @@
 }
 
 #page3 #colon1 {
-    left: 12%;
-    top: 19%;
+    left: 10%;
+    top: 12%;
 }
 
 #page3 #colon2 {
-    bottom: 20%;
+    bottom: 12%;
     right: 19%;
 }
 
@@ -194,7 +195,7 @@
 
 #footer {
     height: 60vh;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 #footer-main {
@@ -202,7 +203,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin-left: 0px;
-    gap: 0px;
+    gap: 10px;
 }
 
 .f1 {
